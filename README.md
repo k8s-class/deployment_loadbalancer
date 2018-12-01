@@ -23,4 +23,5 @@ kubectl get deployments
  5489  kubectl set image deployment/helloworld-deployment basicnodeapp=buildmystartup/nodedbapp --record
  5490  kubectl get pods
  5491  curl http://40.113.193.117
+ kubectl scale deployment/helloworld-live-readiness --replicas=3
  ```
