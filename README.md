@@ -5,7 +5,6 @@ kubectl get deployments
 kubectl set image deploymen/helloworld-deployment basicnodeapp=buildmystartup/nodedbapp --record
 kubectl set image deployment/helloworld-deployment basicnodeapp=buildmystartup/nodedbapp --record
 kubectl deployment status
-kubectl deployment status
 kubectl rollout status deployment helloworld-deployment
 curl http://40.113.193.117
 kubectl rollout history deployment helloworld-deployment
